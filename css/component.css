@@ -1,5 +1,6 @@
 /* Header */
 .large-header {
+    align-items: center;
 	position: relative;
 	width: 100%;
 	background: #333;
@@ -15,10 +16,10 @@
 
 .main-title {
     position: absolute;
-    font-size: 30px;
+    font-size: 50px;
     font-family: 'Noto Serif', serif;
 	margin: 0;
-	padding: 0;
+	padding: 10;
 	color: #f9f1e9;
 	text-align: center;
     top:35%;
@@ -62,7 +63,7 @@
     position: absolute;
     margin: 0;
     padding: 5;
-    top: 50%;
+    top: 55%;
     left: 50%;
     -webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
