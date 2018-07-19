@@ -1,4 +1,10 @@
 /* Header */
+
+.content {
+    align-items: center;
+    height: auto;
+}
+
 .large-header {
     align-items: center;
 	position: relative;
@@ -16,10 +22,10 @@
 
 .main-title {
     position: absolute;
-    font-size: 50px;
+    font-size: 2vw;
     font-family: 'Noto Serif', serif;
 	margin: 0;
-	padding: 10;
+	padding: 25px;
 	color: #f9f1e9;
 	text-align: center;
     top:35%;
@@ -29,25 +35,27 @@
 }
 
 .subtitle {
+    height: auto;
     position: absolute;
-    font-size: 20px;
+    font-size: 2vw;
     font-family: 'Merienda', cursive;
 	margin: 0;
-	padding: 5;
+	padding: 25px;
 	color: #f9f1e9;
 	text-align: center;
-    top: 75%;
+    top: 80%;
     left: 50%;
     -webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
 
 .thin {
+    height: auto;
     position: absolute;
-    font-size: 20px;
+    font-size: 2vw;
     font-family: 'Noto Serif', serif;
 	margin: 0;
-	padding: 5;
+	padding: 25px;
 	color: #f9f1e9;
 	text-align: center;
     top: 25%;
@@ -60,11 +68,17 @@
     border-radius : 50% !important;
 	-moz-border-radius : 50% !important;
 	-webkit-border-radius : 50% !important;
+    max-width: 100%;
+    height: auto;
     position: absolute;
     margin: 0;
-    padding: 5;
+    padding: 25px;
     top: 55%;
     left: 50%;
     -webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
+@media only screen and (max-width : 768px) {
+	.demo-1 .main-title,
+		font-size: 3em;
+	}
