@@ -54,3 +54,16 @@
     -webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
+
+.profile-img {
+    border-radius : 50% !important;
+	-moz-border-radius : 50% !important;
+	-webkit-border-radius : 50% !important;
+    position: absolute;
+    margin: 0;
+    padding: 5;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
